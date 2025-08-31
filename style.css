@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgba(191, 214, 196, 0.9);
+    height: 50px;
+
+}
+
+.logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.nparts{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nparts li{
+    margin-right: 20px;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+.nparts a{
+  text-decoration: none; 
+  color: black;      
+}
+
+.logo{
+  text-decoration: none; 
+  color: black;      
+}
