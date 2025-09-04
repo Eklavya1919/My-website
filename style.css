@@ -11,6 +11,16 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'ekbfont';
+    src: url(Fonts/steph-font-bold.ttf);
+}
+
+@font-face {
+    font-family: 'eknfont';
+    src: url(Fonts/steph-font.ttf);
+}
+
 .navbar{
     display: flex;
     background-color: rgba(191, 214, 196, 0.9);
@@ -32,6 +42,8 @@ html {
     font-size: 25px;
     text-decoration: none;
     color: black;
+    font-family: 'ekbfont', sans-serif;
+
 }
 
 .nparts{
@@ -47,19 +59,25 @@ html {
 }
 
 .nparts a{
-  text-decoration: none; 
-  color: black;      
+    text-decoration: none; 
+    color: black; 
+    font-family: 'ekbfont', sans-serif;
+     
 }
 
 #about-page{
     height: 900px;
     margin-top: 150px;
+    font-family: 'eknfont', sans-serif;
 }
 .greet{
     display: flex;
     justify-content: center;
     font-size: 46px;
-    font-weight: 700;
+}
+
+.greet p{
+    font-family: 'ekbfont', sans-serif;
 }
 
 .ppbox{
@@ -97,18 +115,14 @@ html {
     margin-top: 45px;
     display: block;
     text-align: center;
-    width: 800px;
+    width: 844px;
+    font-size: 20px;
 
 }
-
 
 #project-page{
     height: 900px;
     background-color: red;
-}
-#skills-page{
-    height: 900px;
-    background-color: black;
 }
 
 #message-page{
@@ -116,9 +130,60 @@ html {
     background-color: blue;
 }
 
-@font-face {
-  font-family: 'MyCustomFont'; /* Give your font a name */
-  src: url("D:\Codes\HTML\My website\Fonts\steph-font-bold.ttf") format('ttf'); /* Path to your font file */
-  font-weight: normal;
-  font-style: normal;
+.apps{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.apps a{
+    text-decoration: none;
+    color: rgba(89, 118, 95, 0.9);
+    font-size: 40px;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+}
+
+.apps a:hover{
+    transform: scale(1.2);
+    color: rgba(114, 170, 125, 0.5);
+}
+
+#project-page{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+#project-page p{
+    margin-top: 100px;
+    font-family: 'ekbfont', sans-serif;
+    font-size: 50px;
+}
+
+
+.sk{
+    display: flex;
+    justify-content: center;
+    font-family: 'ekbfont';
+    margin-top: 100px;
+    font-size: 150px;
+}
+
+.sapps{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.sapps i:hover{
+    transform: scale(1.2);
+    color: rgba(114, 170, 125, 0.5);
+}
+
+.sapps i{
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgba(89, 118, 95, 0.9);
 }
